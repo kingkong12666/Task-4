@@ -1,0 +1,239 @@
+.bg_main{
+
+
+	background-color: #108CAD;
+	min-height:100vh; 
+}
+.bg1{
+float: right;
+
+	height: 53px;
+	width: 100%;
+	background-color: #128aa7;
+}
+.bg2{
+float: right;
+
+	border: 1px solid black;
+	height: 140px;
+	width: 100%;
+	background: #16cee1; 
+    background: -webkit-linear-gradient(#16cee1 0%, #ffffff 100%);
+    background: -o-linear-gradient(#16cee1 0%, #ffffff 100%);
+    background: linear-gradient(#16cee1 0%, #ffffff 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16cee1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.bg3{
+	float: right;
+
+	height: 846px;
+	width: 100%;
+	background: #3ec3d1; /* Old browsers */
+    background: -moz-linear-gradient(top, #3ec3d1 0%, #108cad 16%, #108cad 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3ec3d1 0%,#108cad 16%,#108cad 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3ec3d1 0%,#108cad 16%,#108cad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ec3d1', endColorstr='#108cad',GradientType=0 );
+}
+.content{
+	
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20px;
+	height: 987px;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	border:1px solid black;
+}
+
+.logo{
+	position: relative;
+	left: 30px;
+	top: 10px;
+}
+
+.contacts{
+	float: right;
+	text-decoration: none;
+	color: blue;
+	font-family: Tahoma;
+	font-size: 12pt;
+	
+}
+ul.contacts > li{
+	position: relative;
+	margin: 10px;
+	right: 35px;
+}
+
+.flag{
+	float: right;
+	position: relative;
+	top: 111px;
+	left: 150px;
+	
+}
+
+.country{
+	float: right;
+	position: relative;
+	right: 10px;
+	font-size: 10px; 
+	font-family: Tahoma;
+	bottom: 19px	
+}
+img{
+	margin: 5px;
+	
+	
+}
+
+.india{
+	position: relative;
+	right: 134px;
+
+}
+
+.nepal{
+	position: relative;
+	right: 108px
+
+}
+
+.tibet{
+	position: relative;
+	right: 81px
+}
+
+.butan{
+	position: relative;
+	right: 55px;
+}
+
+.sri-lanka{
+	position: relative;
+	right: 41px;
+}
+
+
+.maldivi{
+	position: relative;
+	right: 35px;
+}
+
+.view{
+	position: relative;
+	right: 5px;
+	bottom: 19px
+}
+
+ul.menu{
+	display: block;
+	list-style: none;
+	background-color: #333333;
+	height: 30px;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+ul:after{
+	display: block;
+	content: ' ';
+	clear: both;
+	float: none;
+}
+
+ul.menu > li{
+	float: left;
+	position: relative;
+}
+
+ul.menu > li >a{
+	display: block;
+	padding: 5px 60px 5px 5px;
+	color: white;
+	text-decoration: none;	
+
+}
+
+ul.submenu{
+	float: left;
+	
+	display: none;
+	background-color: white;
+	height: 125px;
+	width: 122px;
+	
+}
+
+ul.submenu > li{
+	display: block;
+
+
+}
+
+ul.submenu > li > a{
+	
+	display: block;
+	color: white;
+	background-color: #333333;
+	text-decoration: none;
+	padding: 5px 3px 3px 3px;
+}
+
+ul.submenu > li > a:hover{
+	text-decoration: underline;	
+}
+
+ul.menu > li:hover > ul.submenu{
+	display: block;
+}
+
+
+ul.menu > li {
+	position: relative;
+	left: 70px;
+}
+
+
+.fon {
+width: 1000px;
+background: url(fon.png) repeat-y; 
+float: left;
+}
+
+.left_col {
+width: 210px;
+float: left;
+}
+
+.center_col {
+width: 580px;
+float: left;
+}
+
+.right_col {
+width: 210px;
+float: right;
+}
+
+.footer{
+	margin: 0 auto;
+	width: 177px;
+	color: white;
+	font-family: Tahoma;
+	font-size: 12px;
+	position: relative;
+	bottom: 20px;
+}
+
+
+
+
+
+
+
+
+ 	
